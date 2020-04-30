@@ -29,10 +29,31 @@ body {
 .social-icons {
   grid-column: 2/4;
   grid-row: 1/2;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  align-items: center;
+}
+
+.social-icon {
+  font-size: 1.8rem;
+  color: #12376e;
+  transition: all 0.2s;
+}
+
+.social-icon:hover {
+  color: #34598f;
+  transform: rotateZ(360deg);
 }
 
 .first-nav {
   grid-column: 6/10;
   grid-row: 1/2;
+}
+
+.first-nav-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  list-style: nones;
 }
 /* end of navbar */
