@@ -21,6 +21,12 @@ body {
       6rem,
       1fr
     );
+  grid-template-rows: repeat(3, min-content);
+  grid-row-gap: 1.6rem;
 }
 
+.social-icons {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
 /* end of navbar */
