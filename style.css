@@ -21,7 +21,7 @@ body {
       6rem,
       1fr
     );
-  grid-template-rows: repeat(3, min-content);
+  grid-template-rows: repeat(3, min-content) 70vh;
   grid-row-gap: 1.6rem;
   margin-top: 1.6rem;
 }
@@ -218,3 +218,24 @@ body {
   color: #458a9f;
 }
 /* end of navbar */
+
+/* banner */
+.banner {
+  grid-column: 2/10;
+  grid-row: 4/5;
+  background-color: #ccc;
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slideshow {
+  display: none;
+}
+
+/* end of banner */
