@@ -250,6 +250,27 @@ body {
   border: 0.1rem solid #fff;
   border-radius: 0.3rem;
   outline: none;
+  position: relative;
+}
+
+.banner-btn-text-one {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.banner-btn-text-two {
+  position: absolute;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.banner-btn-text-two {
+  position: absolute;
 }
 
 .slideshow {
