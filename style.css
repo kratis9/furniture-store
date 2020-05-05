@@ -232,6 +232,21 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.banner-heading {
+  font-size: 10rem;
+  color: #12376e;
+  margin-bottom: 6rem;
+}
+
+.banner-btn {
+  width: 16rem;
+  height: 5rem;
+  background: linear-gradient(to top, #00154c, #12376e, #23487f);
+  color: #fff;
 }
 
 .slideshow {
