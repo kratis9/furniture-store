@@ -223,7 +223,6 @@ body {
 .banner {
   grid-column: 2/10;
   grid-row: 4/5;
-  background-color: #ccc;
   position: relative;
 }
 
@@ -251,6 +250,7 @@ body {
   border-radius: 0.3rem;
   outline: none;
   position: relative;
+  overflow: hidden;
 }
 
 .banner-btn-text-one {
@@ -259,6 +259,7 @@ body {
   left: 0;
   transform: translateY(-50%);
   width: 100%;
+  transition: top 0.2s;
 }
 
 .banner-btn-text-two {
@@ -269,12 +270,22 @@ body {
   width: 100%;
 }
 
-.banner-btn-text-two {
-  position: absolute;
+.banner-btn:hover .banner-btn-text-one {
+  top: -100%;
+}
+
+.banner-btn:hover .banner-btn-text-two {
+  top: 50%;
 }
 
 .slideshow {
-  display: none;
+  height: 100%;
+}
+
+.slideshow-wrapper {
+  display: flex;
+  width: 400%;
+  height: 100%;
 }
 
 /* end of banner */
