@@ -21,7 +21,7 @@ body {
       6rem,
       1fr
     );
-  grid-template-rows: repeat(3, min-content) 70vh;
+  grid-template-rows: repeat(3, min-content) 70vh min-content;
   grid-row-gap: 1.6rem;
   margin-top: 1.6rem;
 }
@@ -412,3 +412,13 @@ body {
 }
 
 /* end of banner */
+
+/* day offer */
+.day-offer {
+  grid-column: 2/10;
+  grid-row: 5/6;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, min-content);
+}
+/* end of day offer */
